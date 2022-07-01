@@ -1,0 +1,28 @@
+{
+  "name": "rescript-react-router-dom",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rescript build",
+    "start": "rescript build -w",
+    "clean": "rescript clean",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "ReScript",
+    "ReactRouterDOM"
+  ],
+  "author": "benfaerber",
+  "description": "Rescript wrapper for React Router DOM",
+  "homepage": "https://github.com/benfaerber/rescript-react-router-dom",
+  "repository": "https://github.com/benfaerber/rescript-react-router-dom",
+  "bugs": "https://github.com/benfaerber/rescript-react-router-dom/issues",
+  "license": "MIT",
+  "devDependencies": {
+    "rescript": "9.1.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.2.1"
+  }
+}
