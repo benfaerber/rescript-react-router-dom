@@ -16,14 +16,14 @@ npm i rescript-react-router-dom
 ```
 1. Import into your Rescript project
 ```rescript
-open ReactRouterDOM
+open RescriptReactRouterDom.ReactRouterDOM
 ```
 
 ## Example Usage
 
 ### Router
 ```rescript
-open ReactRouterDOM
+open RescriptReactRouterDom.ReactRouterDOM
 
 @react.component
 let make = () => {
@@ -42,7 +42,7 @@ let make = () => {
 
 ### Links
 ```rescript
-open ReactRouterDOM
+open RescriptReactRouterDom.ReactRouterDOM
 
 @react.component
 let make = () => {
