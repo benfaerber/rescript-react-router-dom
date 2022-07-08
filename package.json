@@ -1,6 +1,6 @@
 {
   "name": "rescript-react-router-dom",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "scripts": {
     "build": "rescript build",
     "start": "rescript build -w",

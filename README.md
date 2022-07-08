@@ -4,7 +4,7 @@ Rescript bindings for [React Router DOM](https://www.npmjs.com/package/react-rou
 ## Getting Started
 
 1. Add this to your `package.json`:
-```json
+```
 npm i rescript-react-router-dom
 ```
 1. Add this to you `bsconfig.json`:

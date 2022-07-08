@@ -7,7 +7,7 @@ type location = {
 }
 
 type params = {
-  slug: string
+  slug: option<string>
 }
 
 module HashRouter = {
@@ -17,11 +17,11 @@ module HashRouter = {
   ) => React.element = "HashRouter"
 }
 
-module Router = {
+module BrowserRouter = {
   @react.component @module("react-router-dom")
   external make: (
     ~children: React.element
-  ) => React.element = "Router"
+  ) => React.element = "BrowserRouter"
 }
 
 module Routes = {
