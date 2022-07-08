@@ -69,3 +69,7 @@ external useLocation: unit => location = "useLocation"
 
 @module("react-router-dom")
 external useParams: unit => params = "useParams"
+
+type history
+@module("react-router-dom")
+external useHistory: unit => history = "useHistory"
