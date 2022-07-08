@@ -70,6 +70,6 @@ external useLocation: unit => location = "useLocation"
 @module("react-router-dom")
 external useParams: unit => params = "useParams"
 
-type navigate
+type navigate = (string, Js.t<string>) => unit
 @module("react-router-dom")
 external useNavigate: unit => navigate = "useNavigate"
