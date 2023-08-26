@@ -2,7 +2,7 @@ type location = {
   pathname: string,
   search: string,
   hash: string,
-  state: option<Js.t<string>>,
+  state: option<string>,
   key: string
 }
 
