@@ -1,11 +1,10 @@
 {
   "name": "rescript-react-router-dom",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "scripts": {
     "build": "rescript build",
     "start": "rescript build -w",
-    "clean": "rescript clean",
-    "watch": "bsb -make-world -w"
+    "clean": "rescript clean"
   },
   "keywords": [
     "ReScript",
