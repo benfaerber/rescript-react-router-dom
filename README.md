@@ -1,4 +1,4 @@
-# Rescript React Router DOM
+# Rescript React Router DOM [![](https://img.shields.io/npm/v/rescript-react-router-dom.svg?logo=rescript)](https://www.npmjs.com/package/rescript-react-router-dom)
 Rescript bindings for [React Router DOM](https://www.npmjs.com/package/react-router-dom)
 
 ## Getting Started
